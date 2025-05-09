@@ -58,10 +58,12 @@ def main():
     Lists.insertNode(7)
     Lists.insertNode(8)
 
+    Lists.printList() #example call for printing the list
 
-    Lists.deleteNode(5)
+    Lists.deleteNode(5)#sample deletion
+    print()
+    print("After deleting 5:")
     Lists.printList()
-
 
 main()
 
