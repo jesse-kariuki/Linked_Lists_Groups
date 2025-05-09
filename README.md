@@ -81,3 +81,23 @@ class Nodes_List:
         if current != None:
             prev.next = current.next
 ```
+
++ Sample function calls in main method
+```python
+def main():
+    Lists = Nodes_List()
+
+    Lists.insertNode(5)
+    Lists.insertNode(6)
+    Lists.insertNode(7)
+    Lists.insertNode(8)
+
+    Lists.printList() #example call for printing the list
+
+    Lists.deleteNode(5)#sample deletion
+    print()
+    print("After deleting 5:")
+    Lists.printList()
+
+main()
+```
